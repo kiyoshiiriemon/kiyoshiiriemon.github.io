@@ -1,0 +1,104 @@
+<html>
+<head>
+	<title>Kiyoshi Irie's Page</title>
+<body>
+<h1>Kiyoshi IRIE</h1>
+Senior Research Scientist - <a href="http://www.furo.org/">Future Robotics Technology Center</a>, Chiba Institute of Technology <br>
+<p>
+Hello, I am a researcher working on various types of robots. My research interests are in the field of mobile robots, machine learning and computer vision.<br>
+My goal is to create robots that make our life easier.
+Recently I completed my Ph.D. program at Tokyo Institute of Technology (supervisor: <a href="http://www.ms.k.u-tokyo.ac.jp/index.html">Prof. Masashi Sugiyama</a>).
+</p>
+
+<h2>CV</h2>
+<a href="https://researchmap.jp/kiy/?lang=english">CV at Researchmap</a>
+
+<h2>Research</h2>
+
+<h3>IMU-based Motion Estimation</h3>
+<p>
+Nowadays, compact and cheap inertial measurement units (IMUs) are widely used such as in smartphones.
+We aim to develop practical methods for measuring motions solely from IMU data, with the hope that they will be helpful for learning sports or other skills.
+In theory, motions can be estimated through integration of acceleration and angular velocity measurements from an IMU; however, we need to compensate large accumulated errors to achieve practical accuracy.
+We developed an algorithm to reduce accumulated errors through fusing multiple constraints, which is inspired by graph-based SLAM technique.
+</p>
+<h4>Journal paper:</h4>
+<ul>
+<li>K. Irie,"A graph optimization approach for motion estimation using inertial measurement unit data", Robomech Journal, Vol. 5, No. 1, pp. 14, 2018 <a href="https://doi.org/10.1186/s40648-018-0110-1"> PDF (open access) </a>
+</ul>
+<hr>
+
+<h3>Mobile Robot Localization Using Street Maps</h3>
+<p>
+Recent advances in SLAM enabled robust and accurate robot localization. However, mapping a large environment is very costly.
+We have been working on localization by reusing existing 2D street maps (e.g., Google Maps). When using a street map,
+making a correct correspondence between sensor data and the map is a challenge because street maps contain very limited information.
+We have proposed object-recognition-based approach (ICRA2012, IROS2013) and dependence maximization approach (IROS2015).
+</p>
+<h4>Journal paper:</h4>
+<ul>
+<li>K. Irie, M. Sugiyama and M. Tomono, "Dependence maximization localization: a novel approach to 2D street-map-based robot localization", Advanced Robotics, Vol. 30, No. 22, pp. 1431-1445, 2016 <a href="papers/dependence_maximization_localization.pdf">PDF (postprint)</a> <a href="http://dx.doi.org/10.1080/01691864.2016.1222915"> (published) </a>
+</ul>
+
+<h4>Conference papers:</h4>
+<ul>
+<li>K. Irie, M. Sugiyama and M. Tomono, "A dependence maximization approach towards street map-based localization," 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Hamburg, 2015, pp. 3721-3728.
+<a href="papers/dependence_localization_iros15.pdf">PDF (postprint)</a>
+<li>K. Irie and M. Tomono, "Road recognition from a single image using prior information," 2013 IEEE/RSJ International Conference on Intelligent Robots and Systems, Tokyo, 2013, pp. 1938-1945.
+ <a href="papers/road_recognition_iros13.pdf">PDF (postprint)</a> <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6696613">(published)</a>
+<li>K. Irie and M. Tomono, "Localization and road boundary recognition in urban environments using digital street maps," 2012 IEEE International Conference on Robotics and Automation, Saint Paul, MN, 2012, pp. 4493-4499.
+ <a href="papers/streetmap_localization_icra12.pdf">PDF (postprint)</a> <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6696613">(published)</a>
+</ul>
+<hr>
+
+<h3>Vision-based Outdoor Localization</h3>
+<p>
+Vision-based outdoor localization is a challenge because image local features are greatly affected by illumination conditions.
+We have proposed two types of methods to overcome the issue: stereo-based approach (IROS2010) and HDR vision-based approach (ICRA2011).
+</p>
+
+<h4>Journal paper:</h4>
+<ul>
+<li>K. Irie, T. Yoshida, M. Tomono, "Outdoor Localization using Stereo Vision under Various Illumination Conditions", Advanced Robotics, Vol. 26, No. 3-4, pp. 327-348, 2012 <a href="papers/outdoor_stereo_localization_ar2012.pdf">PDF (postprint)</a> <a href="http://dx.doi.org/10.1163/156855311X614608"> (published) </a>
+</ul>
+
+<h4>Conference papers:</h4>
+<ul>
+<li>K. Irie, T. Yoshida, M. Tomono, "A High Dynamic Range vision approach to outdoor localization.", ICRA 2011 <a href="papers/hdr_localization_icra11.pdf">PDF (postprint)</a> <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=5980281">(published)</a>
+<li>K. Irie, T. Yoshida, M. Tomono, "Mobile robot localization using stereo vision in outdoor environments under various illumination conditions.", IROS 2010 <a href="papers/stereo_localization_iros10.pdf">PDF (postprint)</a> <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=5654401">(published)</a>
+</ul>
+<hr>
+
+<h3>Camera-LiDAR Extrinsic Calibration</h3>
+<p>
+Camera-LiDAR systems became popular for outdoor RGB+D data acquisition.
+We developed a method for calibrating the relative pose between a camera and a LiDAR using statistical dependence maximization.
+Our method performs robustly even on noisy outdoor data sets.
+</p>
+
+<h4>Conference paper:</h4>
+<ul>
+<li>K. Irie, M. Sugiyama and M. Tomono, "Target-less camera-LiDAR extrinsic calibration using a bagged dependence estimator," 2016 IEEE International Conference on Automation Science and Engineering (CASE), Fort Worth, TX, USA, 2016, pp. 1340-1347.
+<a href="papers/camera_lidar_calib_case2016.pdf">PDF (postprint)</a> <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7743564">(published)</a>
+</ul>
+<hr>
+
+
+<h3>Real World Robot Challenge (Tsukuba Challenge)</h3>
+<p>
+We have built outdoor mobile robots and performed navigation experiments in real urban environments.
+We participated in <a href="http://www.tsukubachallenge.jp/">Tsukuba Challenge</a> in 2009-2011, and we were awarded Tsukuba City Mayor Award.
+</p>
+<hr>
+
+<h3>Robocup</h3>
+<p>
+I have been a member of a Robocup team <a href="" >CIT Brains</a> since 2007. We are the winner of Humanoid League (KidSize) at 2014 and 2015.
+My contributions are software components on localization, perception, planning, system architecture, GUI, etc.
+</p>
+<hr>
+
+(c) 2015-2016 Kiyoshi Irie 
+</body>
+</html>
+
